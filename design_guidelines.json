@@ -1,0 +1,168 @@
+{
+  "theme": "LIGHT",
+  "archetype": "1 (Organic & Earthy) blended with Light Luxury",
+  "design_philosophy": "A clean, modern, and spiritually uplifting premium landing page for Umrah travel. Emphasizes trust, reverence, and elegance. Uses high-quality cinematic imagery, generous whitespace, and subtle micro-interactions to create a serene user experience.",
+  "colors": {
+    "primary": {
+      "DEFAULT": "#8B1A1A",
+      "hover": "#701515",
+      "light": "#FDE8E8"
+    },
+    "background": {
+      "DEFAULT": "#FFFFFF",
+      "alt": "#FAFAFA"
+    },
+    "surface": {
+      "DEFAULT": "#FFFFFF",
+      "muted": "#F3F4F6",
+      "border": "#E5E7EB"
+    },
+    "text": {
+      "primary": "#111827",
+      "secondary": "#4B5563",
+      "muted": "#9CA3AF",
+      "inverse": "#FFFFFF"
+    },
+    "status": {
+      "sold_out": "#6B7280",
+      "limited": "#F59E0B",
+      "available": "#10B981"
+    }
+  },
+  "typography": {
+    "headings": {
+      "family": "Playfair Display, serif",
+      "weight": "font-bold",
+      "tracking": "tracking-tight",
+      "sizes": {
+        "h1": "text-4xl sm:text-5xl lg:text-6xl leading-tight",
+        "h2": "text-3xl sm:text-4xl leading-snug",
+        "h3": "text-xl sm:text-2xl leading-snug"
+      }
+    },
+    "body": {
+      "family": "Outfit, sans-serif",
+      "sizes": {
+        "default": "text-base leading-relaxed",
+        "small": "text-sm",
+        "large": "text-lg"
+      }
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": {
+      "section": "py-24 sm:py-32",
+      "element": "mb-8",
+      "grid_gap": "gap-8 lg:gap-12"
+    },
+    "radius": {
+      "card": "rounded-2xl",
+      "button": "rounded-full"
+    }
+  },
+  "components": {
+    "hero": {
+      "overlay": "bg-black/40",
+      "layout": "flex flex-col items-center justify-center min-h-[90vh] text-center px-4",
+      "text_color": "text-white"
+    },
+    "card": {
+      "background": "bg-white",
+      "border": "border border-gray-100",
+      "shadow": "shadow-sm hover:shadow-xl transition-shadow duration-300",
+      "padding": "p-8"
+    },
+    "button": {
+      "primary": "bg-[#8B1A1A] text-white hover:bg-[#701515] transition-colors rounded-full px-8 py-4 font-semibold inline-flex items-center justify-center",
+      "floating_whatsapp": "fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform z-50 flex items-center justify-center"
+    },
+    "navbar": {
+      "background": "bg-white/80 backdrop-blur-xl border-b border-gray-100",
+      "brand_color": "text-[#8B1A1A]"
+    }
+  },
+  "animations": {
+    "scroll_reveal": "motion-safe:animate-fade-in-up",
+    "hover_lift": "hover:-translate-y-1 transition-transform duration-300",
+    "smooth_scroll": "true"
+  },
+  "icons_library": "lucide-react",
+  "media": {
+    "hero_background": "https://images.pexels.com/photos/18274181/pexels-photo-18274181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "package_1": "https://images.unsplash.com/photo-1592326871020-04f58c1a52f3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxwaWxncmltcyUyMHVtcmFoJTIwbWVjY2F8ZW58MHx8fHwxNzgyMjE2NzA3fDA&ixlib=rb-4.1.0&q=85",
+    "package_2": "https://images.pexels.com/photos/34999018/pexels-photo-34999018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "package_3": "https://images.unsplash.com/photo-1513072064285-240f87fa81e8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwyfHxwaWxncmltcyUyMHVtcmFoJTIwbWVjY2F8ZW58MHx8fHwxNzgyMjE2NzA3fDA&ixlib=rb-4.1.0&q=85",
+    "features_bg": "https://images.unsplash.com/photo-1728747723398-0e0ce211bb29?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxtYXNqaWRpbCUyMGhhcmFtJTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc4MjIxNjcwN3ww&ixlib=rb-4.1.0&q=85"
+  },
+  "content": {
+    "hero": {
+      "headline": "Melangkah Pasti Menuju Tanah Suci Bersama Menuju Mekah",
+      "cta": "Konsultasi via WhatsApp",
+      "cta_link": "https://wa.me/6285155412377"
+    },
+    "packages": [
+      {
+        "title": "Paket Umrah Agustus",
+        "status": "SOLD OUT",
+        "price": "Rp 30.9 Juta",
+        "image_key": "package_1"
+      },
+      {
+        "title": "Paket Umrah November",
+        "status": "LIMITED",
+        "seats": "9 seats",
+        "price": "Rp 31.9 Juta",
+        "image_key": "package_2"
+      },
+      {
+        "title": "Paket Umrah Ramadhan 1448H/2027",
+        "status": "AVAILABLE",
+        "seats": "35 seats",
+        "price": "Rp 37.9 Juta",
+        "image_key": "package_3"
+      }
+    ],
+    "features": [
+      { "title": "Saudia Airlines", "icon": "Plane" },
+      { "title": "Hotel Bintang 3", "icon": "Building2" },
+      { "title": "Handling Bandara", "icon": "Briefcase" },
+      { "title": "Perlengkapan Umrah", "icon": "Package" },
+      { "title": "Vaksinasi Meningitis", "icon": "Syringe" },
+      { "title": "Durasi 9 Hari", "icon": "Calendar" }
+    ],
+    "countdown": {
+      "target_date": "2026-06-30T23:59:59+07:00",
+      "title": "Promo Paket November Berakhir Dalam:"
+    },
+    "footer": {
+      "socials": [
+        { "platform": "Instagram", "handle": "@menuju.mekah", "url": "https://instagram.com/menuju.mekah" },
+        { "platform": "TikTok", "handle": "@menuju.mekah", "url": "https://tiktok.com/@menuju.mekah" }
+      ],
+      "contact": {
+        "whatsapp": "0851-5541-2377",
+        "website": "www.menujumekah.com"
+      }
+    }
+  },
+  "testing_attributes": {
+    "required": true,
+    "pattern": "data-testid=\"[role]-[element]\"",
+    "examples": [
+      "data-testid=\"hero-whatsapp-button\"",
+      "data-testid=\"package-card-agustus\"",
+      "data-testid=\"countdown-timer\""
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Use framer-motion for the fade-in-up scroll animations on the Packages and Features sections.",
+    "Implement the countdown timer functionality counting down to 30 Juni 2026.",
+    "Include a fixed floating WhatsApp button in the bottom right corner with a hover scale effect.",
+    "Import and apply 'Playfair Display' font for headings and 'Outfit' for body text via Google Fonts. Add them to tailwind config.",
+    "Ensure the hero image has a dark overlay (bg-black/40) so the white text is completely legible.",
+    "Build the application completely in Indonesian language as specified.",
+    "Implement a navbar with backdrop-blur-xl and the primary color for the logo/brand name.",
+    "Add 'data-testid' attributes to all buttons, links, and interactive elements for testing."
+  ]
+}

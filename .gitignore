@@ -1,0 +1,64 @@
+# ===== Dependencies =====
+node_modules/
+.pnp
+.pnp.js
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+ENV/
+
+# ===== Build outputs =====
+frontend/build/
+frontend/dist/
+backend/dist/
+*.egg-info/
+
+# ===== Environment files =====
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!frontend/.env.example
+!backend/.env.example
+
+# ===== Logs =====
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== Testing =====
+coverage/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== Emergent / Platform =====
+.emergent/
+test_reports/
+/tests/__pycache__/
+
+# ===== Misc =====
+*.tmp
+*.temp
+.cache/
+.env.*
+*.env
+credentials.json
+*.pem
+*.key
+.credentials
